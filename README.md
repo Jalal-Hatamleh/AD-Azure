@@ -2,7 +2,7 @@
   <img src="https://github.com/Jalal-Hatamleh/AD-Azure/blob/main/images/1.png?raw=true" alt="Installation Screenshot"/>
 </p>
 
-# Deploying On-Premises Active Directory in the Cloud (Azure)
+# Cloud-Based Deployment of On-Premises Active Directory in Azure
 
 In this hands-on lab, I set up an Active Directory environment in Microsoft Azure. I created a Domain Controller (DC) VM and a Client VM, with the goal of simulating an on-premises Active Directory setup in the cloud. First, I configured the necessary network resources, then deployed a Windows Server 2022 VM ("DC-1") with a static IP, and disabled its firewall for testing connectivity. Afterward, I created a Windows 10 VM ("Client-1"), set its DNS to point to the Domain Controller's IP, and tested the connection by pinging the DC and verifying the DNS settings.
 
