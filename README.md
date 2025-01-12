@@ -59,5 +59,3 @@ In this hands-on lab, I set up an Active Directory environment in Microsoft Azur
 - **DNS Configuration**: I set up DNS on Client-1 to point to the Domain Controller's static IP, ensuring proper domain name resolution.
 - **Firewall and Connectivity Testing**: I disabled the Windows Firewall on DC-1 for initial testing, then confirmed connectivity by pinging and checking the DNS settings with `ipconfig /all`.
 - **PowerShell for Verification**: I used PowerShell to verify DNS resolution and ensure that the network connection between DC-1 and Client-1 was functioning as expected.
-
----
