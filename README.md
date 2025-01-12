@@ -61,5 +61,3 @@ In this hands-on lab, I set up an Active Directory environment in Microsoft Azur
 - **PowerShell for Verification**: I used PowerShell to verify DNS resolution and ensure that the network connection between DC-1 and Client-1 was functioning as expected.
 
 ---
-
-This project demonstrates my ability to deploy and configure Active Directory in Azure, troubleshoot network connectivity, and ensure proper DNS resolution between systems. The screenshots show the full setup process and results.
