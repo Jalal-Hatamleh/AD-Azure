@@ -30,7 +30,7 @@ In this hands-on lab, I set up an Active Directory environment in Microsoft Azur
 4. After the VM was deployed, I set the Domain Controller’s NIC Private IP address to be static, ensuring that the IP remained fixed for DNS resolution.
 5. To make sure everything was working smoothly, I logged into the VM and temporarily disabled the Windows Firewall to test connectivity.
 
-![Installation Screenshot](https://github.com/Jalal-Hatamleh/osTicket-Setup/raw/main/images/1.png?raw=true)
+![Installation Screenshot](https://github.com/Jalal-Hatamleh/AD-Azure/blob/main/images/2.png?raw=true)
 
 ### Setting Up the Client-1 VM in Azure
 
@@ -40,7 +40,7 @@ In this hands-on lab, I set up an Active Directory environment in Microsoft Azur
 2. I made sure that Client-1 was deployed in the same region and Virtual Network as DC-1 to ensure they could communicate.
 3. Once the VM was ready, I configured Client-1’s DNS settings to point to DC-1’s static IP, so it could resolve domain names properly.
 
-![Installation Screenshot](https://github.com/Jalal-Hatamleh/osTicket-Setup/raw/main/images/1.png?raw=true)
+![Installation Screenshot](https://github.com/Jalal-Hatamleh/AD-Azure/blob/main/images/3.png?raw=true)
 
 ### Verifying Connectivity
 
@@ -50,7 +50,7 @@ In this hands-on lab, I set up an Active Directory environment in Microsoft Azur
 3. I opened PowerShell on Client-1 and ran `ipconfig /all` to verify the DNS settings.
    - I made sure the DNS settings were correctly pointing to DC-1’s private IP, confirming that Client-1 could resolve the Domain Controller.
 
-![Installation Screenshot](https://github.com/Jalal-Hatamleh/osTicket-Setup/raw/main/images/1.png?raw=true)
+![Installation Screenshot](https://github.com/Jalal-Hatamleh/AD-Azure/blob/main/images/4.png?raw=true)
 
 ## Key Takeaways: Real-world Experience with Active Directory in Azure
 
